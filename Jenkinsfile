@@ -26,7 +26,7 @@ pipeline {
         }
 
         stage('Reports') {
-            steps { cucumber fileIncludePattern: 'target/cucumber.json',
+            steps { cucumber fileIncludePattern: 'target/cucumberReport.json',
 					sortingMethod: 'ALPHABETICAL',
 					trendsLimit: 10 
 			}
