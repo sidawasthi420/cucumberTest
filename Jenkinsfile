@@ -60,8 +60,8 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: '**/target/*.html', fingerprint: true
-            junit 'target/surefire-reports/*.xml'
+            archiveArtifacts artifacts: '**/target/cucumberReport.html', fingerprint: true
+            junit 'target/cucumberReport.json'
         }
 
         success {
