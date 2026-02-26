@@ -5,10 +5,10 @@
     <classes>
       <class name="runner.testrunner"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
   <test thread-count="5" name="Test2">
     <classes>
       <class name="runner.testrunner"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
 </suite> <!-- Suite -->
