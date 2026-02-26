@@ -82,6 +82,10 @@
             <suiteXmlFiles>
                 <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
+			<systemPropertyVariables> 
+				<!-- This tells Cucumber to generate JSON report --> 
+				<cucumber.options>--plugin json:target/cucumber.json</cucumber.options> 
+			</systemPropertyVariables>
         </configuration>
       </plugin>
     </plugins>
