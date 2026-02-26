@@ -15,7 +15,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 		features = "src/test/resources/features",
 		glue = {"stepDef","hooks"},
 		tags = "@check1 or @check2",
-		plugin = {"pretty", "html:target/cucumberReport.html", "json:target/cucumberReport.json", "xml:target/cucumberReport.xml"},
+		plugin = {"pretty", "html:target/cucumberReport.html", "json:target/cucumberReport.json"},
 		monochrome = true
 		)
 public class testrunner extends AbstractTestNGCucumberTests{
