@@ -14,7 +14,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = {"stepDef","hooks"},
-		tags = "@check1",
+		tags = "@check1 or @check2",
 		plugin = {"pretty", "html:target/cucumberReport.html"},
 		monochrome = true
 		)
