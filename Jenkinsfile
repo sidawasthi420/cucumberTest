@@ -52,7 +52,7 @@ pipeline {
                 <p><b>Build Number:</b> #${env.BUILD_NUMBER}</p>
                 <p><b>Build Status:</b> <span style="color: green;"><b>SUCCESS</b></span></p>
                 <p><b>Build URL:</b> <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
-                <p><b>Cucumber Report:</b> <a href="http://localhost:8080/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/cucumber-html-reports/overview-features.html">Click here</a></p>
+                <p><b>Cucumber Report:</b> <a href="http://localhost:8080/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/cucumber-json-reports/overview-features.json">Click here</a></p>
                 <p>Best regards,</p>
                 <p><b>Automation Team</b></p>
                 </body>
@@ -77,7 +77,7 @@ pipeline {
                 <p><b>Build Status:</b> <span style="color: red;"><b>FAILED &#10060;</b></span></p>
                 <p><b>Build URL:</b> <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
                 <p><b>Please check the logs and take necessary actions.</b></p>
-                <p><b>Cucumber Report (if available):</b> <a href="http://localhost:8080/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/cucumber-html-reports/overview-features.html">Click here</a></p>
+                <p><b>Cucumber Report (if available):</b> <a href="http://localhost:8080/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/cucumber-json-reports/overview-features.json">Click here</a></p>
                 <p>Best regards,</p>
                 <p><b>Automation Team</b></p>
                 </body>
